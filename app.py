@@ -42,7 +42,7 @@ with st.sidebar:
     selected_movie = st.text_input("Enter a movie title", "")
     st.markdown("---")
     st.info("This system uses content-based filtering to recommend movies similar to your selection.")
-    st.text("Created by Prachi, Namrata, Prajeet")
+    st.text("Created by Sameer")
 
 # Main content
 col1, col2 = st.columns([1, 2])
@@ -90,4 +90,4 @@ with col2:
 
 # Add a footer
 st.markdown("---")
-st.markdown("Made with ❤️ by Prachi and team")
+st.markdown("Made by Sameer")
